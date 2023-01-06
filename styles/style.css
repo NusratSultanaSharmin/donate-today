@@ -1,1 +1,89 @@
+*{
+    margin:0 ;
+}
+
+/* banner-section */
+.banner{
+    background-image: url('../images/donation11.jpg');
+    height:700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+   text-align: center;
+   color:rgba(255, 255, 255, 0.977);
+   background-position: center;
+   padding-top: 500px;
+   background-image:
+   linear-gradient(to bottom, rgba(240, 246, 243, 0), rgba(00, 0, 0, 1)),
+   url('../images/donation11.jpg');}
+.banner h1{
+    font-size: 90px; 
+}
+.banner p{
+    font-size: 30px;
+}
+.banner button{
+    margin:30px;
+    padding:10px;
+    font-size:20px;
+    background-color:rgb(199, 123, 16);
+    border-radius: 10px;
+}
+.banner-down{
+    text-align: center;
+    padding-top:200px;
+}
+.banner-down h3{
+    font-size:50px;
+    margin-top:60px;
+    padding-top: 30px;
+}
+
+.banner-down p{
+    font-size:30px;
+    padding-top: 40px;
+}
+.donation{
+    display:flex;
+    justify-content: center;
+    margin-top:30px;
+    gap:40px;
+    font-weight:500;
+    font-size: 50px;
+    box-shadow: 50px;
+    
+
+}
+.donation div{
+    background-color: blanchedalmond;
+    padding:50px;
+} 
+
+.donationAmt{
+    display: flex;
+    justify-content: center;
+    margin-top:100px;
+    margin-bottom: 50px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.donationAmt input{
+    font-size: 50px;
+    border: none;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    width: 75%;
+}
+.donation-btn{
+    margin:30px;
+    padding:20px;
+    font-size:30px;
+    background-color:rgb(199, 123, 16);
+    border-radius: 10px;
+
+    }
+
+
+
 
