@@ -198,6 +198,75 @@
         margin-right: 90px;
     }
 
+    /* get my updates styles */
+     
+    .updates{
+        display: block;
+        justify-content: space-around;
+        padding: 0 400px; 
+        margin-bottom: 100px;
+
+
+    }
+    .updates-uppersite h3{
+        font-size:50px;
+        margin-bottom: 55px;
+        text-align: center;
+
+
+    }
+    .updates-uppersite p{
+        font-size:25px;
+        margin-bottom: 65px;
+        text-align: center;
+
+
+    }
+    .updates-lowersite{
+        text-align: center;
+        background-color: rgba(243, 212, 172, 0.879);
+        padding: 50px;
+
+    }
+    .email{
+        padding:20px;
+        font-size:30px;
+        border: none;
+
+
+    }
+    .updates-lowersite input{
+        margin-right: 0;
+    }
+    .updates-lowersite button{
+        margin-left: 0;
+        border: none;
+        border-radius: 0px 5px 5px 0;
+
+    } 
+    /* footer section styles */
+    footer{
+        background-color: black;
+        text-align: center;
+        padding: 50px;
+        
+    }
+    footer h4{
+        color:rgb(255, 25, 0);
+        font-size: 40px;
+        font-weight: 900;
+        margin-bottom: 20px;
+    }
+    footer p{
+        font-size: 18px;
+        font-weight: 400;
+        color:white;
+
+
+    }
+    
+
+    
 
 
 
