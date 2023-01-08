@@ -1,11 +1,11 @@
 *{
-    margin:0 ;
+    margin:0;
 }
 
 /* banner-section */
 .banner{
     background-image: url('../images/donation11.jpg');
-    height:700px;
+    height:70vh;
     background-repeat: no-repeat;
     background-size: cover;
    text-align: center;
@@ -23,10 +23,11 @@
 }
 .banner button{
     margin:30px;
-    padding:10px;
-    font-size:20px;
+    padding:20px;
+    font-size:30px;
     background-color:rgb(199, 123, 16);
     border-radius: 10px;
+    color:rgba(240, 248, 255, 0.827);
 }
 .banner-down{
     text-align: center;
@@ -47,7 +48,7 @@
     justify-content: center;
     margin-top:30px;
     gap:40px;
-    font-weight:500;
+    font-weight:600;
     font-size: 50px;
     box-shadow: 50px;
     
@@ -79,11 +80,71 @@
     margin:30px;
     padding:20px;
     font-size:30px;
-    background-color:rgb(199, 123, 16);
+    background-color:rgba(199, 123, 16, 0.892);
     border-radius: 10px;
+    color:rgba(240, 248, 255, 0.907);
 
     }
 
+    /* donation plan styles */
 
+    .donation-sector{
+        display: flex;
+        justify-content:space-between;
+        margin:50px   200px;
+        /* width:30px 100px; */
+        
+    
+    }
+
+
+    .donation-title{
+        font-size:80px;
+        font-weight:600;
+        font-size: 50px;
+        text-align: center; 
+        margin-bottom: 30px;
+    }
+
+    .donation-description{
+        text-align: center;
+        font-size: 26px;
+        color:rgb(105, 108, 110)
+        
+        
+
+    }
+
+    .donation-sector .donation-sub-title{
+        font-size: 30px;
+        font-weight: 900;
+        margin:20px 0;
+        
+    }
+    /* donation sector styles */
+
+    .food{
+        padding:90px;
+        background-color:rgba(186, 203, 219, 0.364);
+        margin-right:40px;
+    }
+    .shelter{ 
+
+        padding:90px;
+        margin-right:40px;
+        background-color:rgba(236, 196, 216, 0.603);
+
+    }
+    .education{
+
+        padding:90px;
+        margin-right:40px;
+        background-color: rgba(231, 213, 182, 0.755);
+
+
+    }
+    .donation-sector .sector-description{
+        font-size: 25px;
+    }
 
 
