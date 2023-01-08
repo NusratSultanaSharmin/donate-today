@@ -139,12 +139,65 @@
 
         padding:90px;
         margin-right:40px;
-        background-color: rgba(231, 213, 182, 0.755);
+        background-color: rgba(231, 213, 182, 0.557);
 
 
     }
     .donation-sector .sector-description{
         font-size: 25px;
     }
+
+    /* contribute section styles */
+
+    .contribute-section{
+        display: flex;
+        margin: o 200px;
+        justify-content: space-around;
+        padding: 50px  250px;
+
+    }
+    .contribute-left{
+        margin-left: 20px;
+    }
+
+    .contribute-left h3 ,.contribute-right-section h3{
+        font-size:50px;
+        margin-bottom: 25px;
+
+    }
+    .contribute-left p , .contribute-right-section p {
+        font-size:25px;
+        margin-bottom: 35px;
+
+       
+
+    }
+
+    .btn-primary{
+        margin:30px;
+        padding:20px;
+        font-size:30px;
+        color:white;
+        background-color: rgba(219, 12, 12, 0.689);
+        border:none;
+        border-radius: 5px;
+    
+    }
+    /* contribute section2 */
+
+    .contribute-section-2{
+
+        display: flex;
+        margin: o 200px;
+        justify-content: space-around;
+        padding: 100px  250px;
+
+    }
+
+    .pic{
+        margin-right: 90px;
+    }
+
+
 
 
